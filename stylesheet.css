@@ -13,6 +13,7 @@ body{
     background: black;
     color: white;
     overflow-x: hidden;
+    width: 100vw;
 }
 ul{
     list-style: none;
