@@ -147,7 +147,10 @@ img{
 .last-border
 {
     border-bottom: 10px solid rgb(69, 69, 69);
-    padding: 50px;
+    padding: 40px;
+}
+#last-border{
+    padding-top: 20px;
 }
 .card-0{
     position: relative;
@@ -250,19 +253,31 @@ img{
     justify-content: center;
 }
 
-/*.input input{
-    width: 650px;
-    height: 3rem;
-
-}*/
+#input input{
+    width: 24rem;
+    margin-right: 0.5rem;
+    height: 3.4rem;
+    background-color: #33334d;
+    border: 1px solid #00cc66;
+    border-radius: 4px;
+    color: white;  
+}
+::placeholder{
+    color: white;
+    font-size: 0.8rem;
+    position: relative;
+    bottom: 0.7rem;
+    left: 0.45rem;
+}
 #input button{
-    height: 3.30rem;
-    width: 250px;
+    height: 3.5rem;
+    width: 12rem;
     left: 20px;
+    border-radius: 3px;
     text-align: center;
     background-color: var(--primary-color);
     font-size: 22px;
-    padding: 15px 32px;
+    padding: 13px 30px;
     border: none;
     border: 2px;
     color: white;
@@ -271,7 +286,7 @@ img{
     max-width: 70%;
     margin-left: 9rem;
     padding-top: 70px;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
 }
 .footer ,
 .footer a, .footer p{
@@ -279,7 +294,7 @@ img{
     color: #d9d9d9;
 }
 .footer a{
-    font-size: 0.8rem;
+    font-size: 0.85rem;
 }
 .footer p{
     margin-bottom: 1.5rem;
@@ -342,5 +357,25 @@ img{
     .footer-cols{
         margin-bottom: 0.1rem;
     }
-
+    #input{
+        display: grid;
+        place-items: center;
+    }
+    #input button{
+        padding: 5px;
+        width: 9rem;
+        height: 3rem;
+        margin-top: 1rem;
+        font-size: 1.2rem;
+    }
+    #input input{
+        height: 3rem;
+    }
+    .faq{
+        font-size: 0.8rem;
+        margin-bottom: 1rem;
+    }
+    #final-p{
+        font-size: 0.8rem;
+    }
 }
